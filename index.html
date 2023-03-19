@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title> Coin Mania</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css" type="text/css">
+    </head>
+    <body>
+        <div class="game-container">
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script>
+      // NOTE - INCLUDE YOUR FIREBASE CONFIG HERE FOR ANYTHING TO WORK:
+      const firebaseConfig = {
+  apiKey: "AIzaSyBnMeCaN_S0jWGLrualYR8kjHXiXfXYTv8",
+  authDomain: "coin-mania-d0a9c.firebaseapp.com",
+  projectId: "coin-mania-d0a9c",
+  storageBucket: "coin-mania-d0a9c.appspot.com",
+  messagingSenderId: "557699925785",
+  appId: "1:557699925785:web:e7729aff3c66d7c5e9e788"
+};
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="libraries/matter.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.play.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+
+    <script src="sketch.js"></script>
+    </body>
+</html>
